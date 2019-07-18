@@ -1,0 +1,240 @@
+#tab_content{
+
+width: 435px;
+height: 100%;
+z-index:1;
+padding: 0 0 20px 0px;
+}
+
+#textbox_dialer{
+
+width: 450px;
+margin-right: 10px;
+height:100px;
+text-align: center;
+background-color: #F3F3F3;
+margin-top:10px;
+}
+
+
+.container{
+
+	width:450px;
+	height: 800px;
+	border:2px solid #F3F3F3;
+	border-radius: 10px;
+	margin-left: 100px;
+	margin-top: 100px;
+	position: relative;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container_dialer{
+
+	margin-left: 10px;
+}
+/*
+#tab_bar{
+
+	width:410px;
+	padding: 10px 20px 10px 0;
+	background-color: green;
+
+}
+*/
+
+/*
+	top, right, bottom, left
+
+*/
+
+.btn_num{
+	background:white;
+	width:70px;
+	height:70px;
+	border: 1px solid #C7C7C7;
+	border-radius:50%;
+	margin-bottom: 10px;
+	margin-top: 5px;
+
+}
+
+.btn_num:hover{
+
+}
+
+.btn_num2{
+	
+	width:100%;
+	
+		background-color: #fff;
+	border-bottom: 1px solid #C7C7C7;
+	border-radius: 0 0 0 0 ;
+}
+
+
+
+#btn_dialer{
+
+	width:75px;
+	height: 75px;
+	margin-top:5px;
+	color:#fff;
+	background-color: #5cb85c;
+	border-color: #5cb85c;
+	border-radius:50%;
+	margin-left: 60px;
+}
+
+#btn_dialer:hover{
+
+	
+	background-color: #409740;
+	
+
+
+}
+
+#btn_clear:hover{
+
+	
+	background-color: #840707;
+	
+
+
+}
+
+#btn_clear{
+
+	
+	width: 75px;
+	height: 75px;
+	border-radius:50%;
+	margin-top:5px;
+	color:#fff;
+	background-color: #CF0000;
+	border-color: #CF0000;
+	margin-right: 60px;
+
+}
+
+#btn_addContact{
+	margin-top:10px;
+	width: 50%;
+	color:#fff;
+	background-color: #5cb85c;
+	border-color: #5cb85c;
+
+}
+
+#btn_addContactClear{
+	margin-top:10px;
+	float:right;
+	width:50%;
+	color:#fff;
+	background-color: #B20000;
+	border-color: #B20000;
+
+}
+
+
+.textboxContact{
+
+	width:100%;
+	margin-bottom: 20px;
+
+}
+
+#name, #phone, #email{
+
+	margin-bottom: 15px;
+	border-top:0; box-shadow: inset 0 0 0 red; border-left:0; border-right:0; border-radius:0;
+}
+
+
+#tab_1, #tab_2, #tab_3,#tab_4{
+	width:100%;
+	color: black;
+	background-color: #35B535;
+	border-bottom: 2px solid #4EBC4E;
+	border-radius: 0 0 0 0 ;
+	height:45px;
+	color:#fff;
+}
+
+#tab_1{
+
+	border-radius: 10px 0 0 0 ;
+}
+
+#tab_4{
+
+	border-radius: 0 10px 0 0;
+}
+
+#tab_1:hover,#tab_2:hover,#tab_3:hover{
+
+	border-bottom-color: green;
+}
+
+#tab_2:focus,#tab_1:focus,#tab_3:focus{
+	border-bottom-color: green;
+}
+
+#tab_contactAdd, #tab_contactList, #tab_gesture{
+
+	margin-left: 10px;
+}
+
+#tab_contactList{
+	height:100%;
+}
+
+
+div.wrapper_list{
+	height:60%;
+	overflow-y:scroll;
+}
+
+.contact{
+	 list-style-type: none;
+	 margin: 0;
+  	 padding: 0;
+  
+}
+
+.contact>button:hover{
+	color:green;
+}
+
+
+#gesture_area{
+
+	height:300px;
+	width:100%;
+	border: 2px solid #F3F3F3;
+	background-color: #F3F3F3;
+}
+
+#gesture_output{
+
+	height:30px;
+	width:100%;
+	border: 2px solid grey;
+	margin-bottom: 20px;
+}
+
+
+.swipeArea{
+	
+	bottom:0;
+	width:450px;
+	position: absolute;
+	height:100px;
+	background-color: #fff;
+
+	
+}
+
+
+
